@@ -18,7 +18,7 @@ public class ItemInfoWithUrlState implements ItemInfo {
         return itemInfo.getUrl();
     }
 
-		public HttpStatus getStatus() {
+    public HttpStatus getStatus() {
         return status;
     }
 

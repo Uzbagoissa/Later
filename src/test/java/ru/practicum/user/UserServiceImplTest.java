@@ -19,7 +19,6 @@ import static org.hamcrest.Matchers.*;
 
 @Transactional
 @RequiredArgsConstructor(onConstructor_ = @Autowired)
-@TestPropertySource(properties = { "db.name=test"})
 @SpringJUnitConfig( { PersistenceConfig.class, UserServiceImpl.class})
 class UserServiceImplTest {
 
