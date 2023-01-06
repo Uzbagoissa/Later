@@ -15,7 +15,6 @@ import ru.practicum.item.dto.ItemDto;
 import ru.practicum.item.dto.ModifyItemRequest;
 import ru.practicum.item.model.Item;
 import ru.practicum.item.model.ItemInfoWithUrlState;
-import ru.practicum.item.model.QItem;
 
 import java.util.ArrayList;
 import java.util.List;
